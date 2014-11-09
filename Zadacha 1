@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main() 
+{char n;
+cout<<"Vuvedete znak:"<<endl;
+cin>>n;
+if(48<=n&&n<=57)
+{cout<<"cifra"<<endl;}
+else {
+if(n>=65&&n<=90)
+{cout<<"golqma bykva"<<endl;}
+else {
+if(n>=97&&n<=122)
+{cout<<"malka byka"<<endl;}
+else {
+	cout<<"znak"<<endl;}}}
+return 0;
+}
