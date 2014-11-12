@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{int n,m,st,l,ymn=1;
+cout<<"Vuvedete broq na cifrite na vasheto chislo:"<<endl;
+cin>>n;
+cout<<"vedete chisloto:"<<endl;
+cin>>m;
+st=n-1;
+while(st>0)
+{
+for(int i=1;i<=st;i++)
+{ymn=ymn*10;}
+l=m/ymn;
+cout<<l<<endl;
+m=m%ymn;
+ymn=1;
+st=st-1;}
+cout<<m<<endl;
+return 0;
+}
+
