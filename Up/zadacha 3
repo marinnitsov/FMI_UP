@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main() 
+{
+bool loveprogramming=true,loveludogorets=false,programshouldhavenocomments=true;
+cout<<loveprogramming<<endl;
+cout<<loveludogorets<<endl;
+cout<<programshouldhavenocomments<<endl;
+return 0;
+}
