@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main() 
+{int n;
+cout<<"Whats your favorite number?"<<endl;
+cin>>n;
+cout<<"Oh,"<<n<<" is my favorite number too!"<<endl;	
+return 0;
+}
