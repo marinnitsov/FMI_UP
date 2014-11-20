@@ -1,0 +1,6 @@
+#include<iostream>
+using namespace std;
+int main() 
+{cout<<"I'm Marin and i'm 19 years old."<<endl;
+return 0;
+}
