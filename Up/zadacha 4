@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main() 
+{
+cout<<"Bojidar"<<endl;//obicha si kolata mnogo
+cout<<"Kristiqn"<<endl;//obicha da spi i da qde
+cout<<"Ceci"<<endl;//obicha da pie
+cout<<"Jorkata"<<endl;//obicha da pie
+cout<<"Drygiq bojidar"<<endl;//toq e golqma enigma
+return 0;
+}
+//tyka trqbvashe da probvam s komentara izvun skobite nali?
