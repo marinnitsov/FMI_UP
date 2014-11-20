@@ -1,0 +1,39 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{double abs,ord,a1,a2,b1,b2,AB;
+cout<<"Vuvedete abscisa i ordinata na tochka A:"<<endl;
+cin>>a1;
+cin>>a2;
+cout<<"Vuvedete abscisa i ordinata na tochka B:"<<endl;
+cin>>b1;
+cin>>b2;
+if(a1*b1<=0)
+abs=sqrt(a1*a1)+sqrt(b1*b1);
+else 
+{a1=a1*a1;
+a1=sqrt(a1);
+b1=b1*b1;
+b1=sqrt(b1);
+if(a1>=b1)
+{abs=a1-b1;}
+else 
+{abs=b1-a1;}
+}//abscisite
+if(a2*b2<=0)
+ord=sqrt(a2*a2)+sqrt(b2*b2);
+else 
+{a2=a2*a2;
+a2=sqrt(a2);
+b2=b2*b2;
+b2=sqrt(b2);
+if(a2>=b2)
+{abs=a2-b2;}
+else 
+{ord=b2-a2;}
+}//ordinatite
+AB=sqrt(abs*abs+ord*ord);
+cout<<"AB="<<AB<<endl;
+return 0;
+}
