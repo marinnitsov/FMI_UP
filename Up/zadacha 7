@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main() 
+{double n,tax;
+ int br;
+ cout<<"Vuvedete cena:"<<endl;
+ cin>>n;
+ cout<<"Vuvedete broi:"<<endl;
+ cin>>br;
+ tax=(n*br)/5;
+ cout<<"DDS="<<tax<<endl;
+ return 0;
+}
+
+
