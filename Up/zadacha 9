@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{int myAge,currentYear,compareYear;
+cout<<"Vuvedete vuzrastta si:"<<endl;
+cin>>myAge;
+cout<<"Vuvedete koq godina sme:"<<endl;
+cin>>currentYear;
+cout<<"Vuvedete godina v budeshteto:"<<endl;
+cin>>compareYear;
+if(compareYear-currentYear+myAge>100)
+{cout<<"Nai-veroqtno shte ste murtvi togava."<<endl;}
+else 
+{myAge=myAge+compareYear-currentYear;
+cout<<"Togava shte ste na "<<myAge<<" godini."<<endl;
+}
+return 0;
+}
