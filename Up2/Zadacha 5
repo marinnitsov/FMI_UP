@@ -1,0 +1,23 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{int n,cifri[20],cf=0,m,i=0;
+bool flag=true;
+cout<<"Vuvedete chislo:"<<endl;
+cin>>n;
+m=n;
+while(m>0)
+{cifri[cf]=m%10;
+ m=m/10;
+ cf=cf+1;}
+while(i<=cf/2)
+{if(cifri[cf-i-1]!=cifri[i])
+{flag=false;}
+ i=i+1;}
+ if(flag==true)
+ cout<<n<<" e palindrom"<<endl;
+ else 
+ cout<<n<<" ne e palindrom"<<endl;
+ return 0;
+}
